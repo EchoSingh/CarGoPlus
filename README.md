@@ -20,7 +20,7 @@ CarRentalSystem/
 ├── CarRentalSystem.sln
 ├── LICENSE.txt
 ├── README.md
-└── CarRentalSystem
+└── CarRentalSystem/
     ├── car.cpp
     ├── car.h
     ├── customer.cpp
