@@ -14,7 +14,7 @@ void showMenu() {
 }
 
 int main() {
-    Database db("tcp://127.0.0.1:3306", "root", "P@$$W0rd", "car_rental");
+    Database db("tcp://127.0.0.1:3306", "root", "your password", "car_rental");
 
     try {
         db.connect();
