@@ -102,6 +102,3 @@ Contributions are what make the open-source community such an amazing place to b
 ## 📜 License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-## 📬 Contact
-
-Project Link: [https://github.com/yourusername/CarRentalSystem](https://github.com/yourusername/CarRentalSystem)
