@@ -1,6 +1,6 @@
 # 🚗 Car Rental Management System
 
-![CarRentalSystem](Screenshots/1.jpg)
+![CarRentalSystem](Screenshots/1.jpg) 
 
 ## 📋 Table of Contents
 - [About the Project](#about-the-project)
