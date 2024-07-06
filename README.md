@@ -1,4 +1,4 @@
-# 🚗 Car Rental Management System
+# 🚗 Car Rental Management System (CarGoPlus)
 
 ![CarRentalSystem](Screenshots/1.jpg) 
 
@@ -17,7 +17,7 @@ The **Car Rental Management System** is a user-friendly application designed to 
 
 ## ✨ Folder Structure :-
  ```plaintext
-    📁 CarRentalSystem/
+    📁 CarGoPlus/
 ├── 📁 MySQL/
 │   ├── 📁 tables/
 │   │   ├── 📄 cars.ibd
