@@ -1,72 +1,107 @@
-# 🚗 Car Rental System
+# 🚗 Car Rental Management System
 
-Welcome to the Car Rental System! This project is designed to manage car rentals, track customers, and handle rental transactions efficiently. Below you'll find information on the project structure, setup instructions, and usage details.
+![CarRentalSystem](Screenshots/1.jpg)
 
-## 📑 Table of Contents
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
+## 📋 Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
-## 📂 Project Structure
+## 📖 About the Project
+The **Car Rental Management System** is a user-friendly application designed to manage car rentals efficiently. It features a graphical user interface built using wxWidgets and integrates with a MySQL database.
 
-The project is organized as follows:
-
-```plaintext
-CarRentalSystem/
-├── .gitattributes
-├── .gitignore
-├── CarRentalSystem.sln
-├── LICENSE.txt
-├── README.md
-└── CarRentalSystem/
-    ├── car.cpp
-    ├── car.h
-    ├── customer.cpp
-    ├── customer.h
-    ├── database.cpp
-    ├── database.h
-    ├── main.cpp
-    ├── rental.cpp
-    ├── rental.h
-└── MySQL tables/
-    ├── cars.ibd
-    ├── customers.ibd
-    └── rentals.ibd
+## ✨ Folder Structure :-
+ ```plaintext
+    📁 CarRentalSystem/
+├── 📁 MySQL/
+│   ├── 📁 tables/
+│   │   ├── 📄 cars.ibd
+│   │   ├── 📄 customers.ibd
+│   │   └── 📄 rentals.ibd
+│   └── 📄 Schema.sql
+├── 📁 Screenshots/
+│   ├── 🖼️ 1.jpg
+│   ├── 🖼️ 2.jpg
+│   └── 🖼️ 3.jpg
+├── 📁 include/
+│   ├── 📄 car.h
+│   ├── 📄 customer.h
+│   ├── 📄 database.h
+│   └── 📄 rental.h
+├── 📁 src/
+│   ├── 📁 core/
+│   │   ├── 📄 car.cpp
+│   │   ├── 📄 customer.cpp
+│   │   ├── 📄 database.cpp
+│   │   └── 📄 rental.cpp
+│   └── 📁 ui/
+│       └── 📄 main.cpp
+├── 📄 .gitattributes
+├── 📄 .gitignore
+├── 📄 CarRentalSystem.sln
+├── 📄 LICENSE.txt
+└── 📄 README.md
 ```
-## ⚙️ Setup Instructions
-1. Clone the repository:
+## ✨ Features
+- 📊 Manage car inventory
+- 👤 Handle customer data
+- 📝 Track rental transactions
+- 📅 View rental history
+- 📸 GUI for ease of use
 
-```sh
-git clone https://github.com/adi26062003/CarRentalSystem.git
-cd CarRentalSystem
-```
-2. Set up the database:
+## 🖼️ Screenshots
+1. **Main Screen**  
+   ![Main Screen](Screenshots/1.jpg)
+2. **Car Inventory**  
+   ![Car Inventory](Screenshots/2.jpg)
+3. **Rental Transactions**  
+   ![Rental Transactions](Screenshots/3.jpg)
 
-   Ensure you have MySQL installed.
-   Import the .ibd files into your MySQL server.
+## 🛠️ Installation
+### Prerequisites
+- MySQL
+- wxWidgets
+- C++ Compiler
 
-3. Build the project:
-   Open CarRentalSystem.sln with Visual Studio.
-
-4. Build the solution to compile the project.
+### Steps
+1. **Clone the repository**
+    ```sh
+    git clone https://github.com/aditya26062003/CarRentalSystem.git
+    ```
+2. **Navigate to the project directory**
+    ```sh
+    cd CarRentalSystem
+    ```
+3. **Set up the database**
+    ```sh
+    mysql -u username -p < MySQL/Schema.sql
+    ```
+4. **Build the project**
+    - Open `CarRentalSystem.sln` in Visual Studio
+    - Build the solution
 
 ## 🚀 Usage
-Run the executable:
-After building the project, run the generated executable file.
-Interact with the system:
-
-Follow the on-screen instructions to manage cars, customers, and rentals.
+1. Run the executable generated from the build process.
+2. Use the GUI to navigate through the application features.
+3. Manage cars, customers, and rentals effortlessly.
 
 ## 🤝 Contributing
-I welcome contributions! Please follow these steps to contribute:
+Contributions are what make the open-source community such an amazing place to be, learn, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the repository.
-Create a new branch: git checkout -b feature/your-feature-name.
-2. Make your changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin feature/your-feature-name.
-3. Open a pull request.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+## 📜 License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## 📬 Contact
+
+Project Link: [https://github.com/yourusername/CarRentalSystem](https://github.com/yourusername/CarRentalSystem)
