@@ -71,7 +71,7 @@ The **Car Rental Management System** is a user-friendly application designed to 
 ### Steps
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/aditya26062003/CarRentalSystem.git
+    git clone https://github.com/EchoSingh/CarRentalSystem.git
     ```
 2. **Navigate to the project directory**
     ```sh
