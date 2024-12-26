@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/github/EchoSingh/CarGoPlus.svg)](https://wakatime.com/badge/github/EchoSingh/CarGoPlus)
 # 🚗 Car Rental Management System (CarGoPlus)
 
 ![CarRentalSystem](Screenshots/1.jpg) 
